@@ -1118,7 +1118,6 @@ static __init int cpufreq_read_cpu_max_c2(char *cpu_max_c2)
 }
 __setup("cpu_max_c2=", cpufreq_read_cpu_max_c2);
 
-
 static __init int init_domain(struct exynos_cpufreq_domain *domain,
 					struct device_node *dn)
 {
